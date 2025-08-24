@@ -45,11 +45,11 @@ Output format:
 def combine_whole_transcript(projects: list[dict]) -> dict:
     for i, project in enumerate(projects):
         
-        name = project.get("name", "")
+        name = project.get("title", "")
 
         section_transcript = create_transcript_section(project)
         if i == 0:
-            transcript.dialogue.append(DialogueLine(speaker="BUNNY", text= section_opener_initial.format(name=name)))
+            transcript.dialogue.append(DialogueLine(speaker="BUNNY", text=section_opener_initial.format(name=name)))
         elif i == len(projects) - 1:
             transcript.dialogue.append(DialogueLine(speaker="BUNNY", text= section_opener_final.format(name=name)))
         else:
