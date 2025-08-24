@@ -41,6 +41,7 @@ Creators: {creators}
 Task:
 Create a discussion between Bunny and Fox about the project.
 They should discuss the merits of the project in a natural, conversational way.
+They should spend maximum 4 lines discussing the project.
 
 Output schema:
 BUNNY: text
