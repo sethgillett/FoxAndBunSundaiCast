@@ -10,14 +10,18 @@ def run_pipeline(lookback_days):
     if not os.path.exists("transcript.json"):
         print("Pulling projects...")
         projects = parse_relevant_json(pull_sundai_projects(), lookback_days=lookback_days)
+
         print("Generating transcript...")
         transcript = combine_whole_transcript(projects)
+
         print("Saving transcript...")
         with open("transcript.json", "w") as f:
             f.write(json.dumps(transcript))
     else:
         transcript = json.load(open("transcript.json"))
+
     num_files = len(os.listdir("./audio_assets"))
+
     if num_files != len(transcript['dialogue']):
         print("Converting transcript to speech...")
         transcript_to_speech(json.load(open("transcript.json"))["dialogue"])
@@ -25,6 +29,7 @@ def run_pipeline(lookback_days):
     print("Merging audio files...")
     if not os.path.exists("./output/merged.mp3"):
         merge_mp3_files("./audio_assets", "./output", "merged.mp3")
+        
     print("Done")
     
 
