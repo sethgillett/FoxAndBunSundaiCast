@@ -8,7 +8,7 @@ def pull_sundai_projects():
     return response.json()
 
 
-def parse_relevant_json(projects):
+def parse_relevant_json(projects, lookback_days=14):
     filtered_projects = []
     for project in projects:
         filtered_projects.append({
@@ -16,7 +16,7 @@ def parse_relevant_json(projects):
             'description': project['description'],
             'date': datetime.fromisoformat(project['createdAt']),
         })
-    return filtered_projects
+    return [p for p in filtered_projects if p['date'] >= datetime.now(tz=timezone.utc) - timedelta(lookback_days)]
 
 
 if __name__ == '__main__':
