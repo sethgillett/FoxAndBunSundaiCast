@@ -17,7 +17,3 @@ def parse_relevant_json(projects, lookback_days=14):
             'date': datetime.fromisoformat(project['createdAt']),
         })
     return [p for p in filtered_projects if p['date'] >= datetime.now(tz=timezone.utc) - timedelta(lookback_days)]
-
-
-if __name__ == '__main__':
-    print(parse_relevant_json(pull_sundai_projects()))
