@@ -1,253 +1,252 @@
 {
-    "dialogue": [
-      {
-        "speaker": "BUNNY",
-        "text": "Welcome back to another episode of Sunday Weekly Updates! I’m your host Bunny, and with me is my co-host Fox. How are you doing today, Fox?"
-      },
-      {
-        "speaker": "FOX",
-        "text": "Hey Bunny! I’m doing alright, I guess. What's the first project we're looking at?"
-      },
-      {
-        "speaker": "BUNNY",
-        "text": "First up is Scene Rewind."
-      },
-      {
-        "speaker": "BUNNY",
-        "text": "Scene Rewind is a fun and interactive web application that allows you to transform any image into a scene from a different era!"
-      },
-      {
-        "speaker": "FOX",
-        "text": "That sounds interesting, but is it really necessary? I mean, how many people actually want to see their old photos in medieval times?"
-      },
-      {
-        "speaker": "BUNNY",
-        "text": "Oh, come on, Fox! It's not just about practicality. It's about reliving memories in a creative way, and the nostalgia factor can be really powerful!"
-      },
-      {
-        "speaker": "FOX",
-        "text": "I guess I see your point. There’s definitely something appealing about visualizing a different time. It could spark some fun conversations."
-      },
-      {
-        "speaker": "BUNNY",
-        "text": "Exactly! Scene Rewind takes us on a whimsical journey through time, allowing us to play with our memories and history in a unique, engaging way!"
-      },
-      {
-        "speaker": "BUNNY",
-        "text": "Next up is ConceptFlow."
-      },
-      {
-        "speaker": "BUNNY",
-        "text": "So, this visual React Flow-based tool is a fantastic way for users to compose concepts and sync rules effortlessly!"
-      },
-      {
-        "speaker": "FOX",
-        "text": "I mean, it sounds interesting, but isn’t there a risk of overwhelming users with too many options?"
-      },
-      {
-        "speaker": "BUNNY",
-        "text": "Not at all! The intuitive drag-and-drop interface makes it all so user-friendly, and the contextual palette really helps guide them."
-      },
-      {
-        "speaker": "FOX",
-        "text": "Okay, I can see that. If it’s as seamless as you say, it could be a game changer!"
-      },
-      {
-        "speaker": "BUNNY",
-        "text": "Absolutely! Imagine a world where creating complex flows is as simple as drag and drop—this tool truly simplifies conceptual design!"
-      },
-      {
-        "speaker": "BUNNY",
-        "text": "Next up is YNGO."
-      },
-      {
-        "speaker": "BUNNY",
-        "text": "YNGO is a groundbreaking interactive AI platform where you can create, share, and explore digital twins right from your browser!"
-      },
-      {
-        "speaker": "FOX",
-        "text": "Yeah, but isn't it just another tool? I mean, how is it different from traditional AI apps?"
-      },
-      {
-        "speaker": "BUNNY",
-        "text": "Great question! Unlike static apps, YNGO allows your AI twins to evolve and interact while you’re offline, making them feel alive and dynamic!"
-      },
-      {
-        "speaker": "FOX",
-        "text": "Okay, that does sound pretty cool. It’s like merging gaming with AI in a way that makes it really engaging!"
-      },
-      {
-        "speaker": "BUNNY",
-        "text": "Exactly! With YNGO, anyone can create their own unique experiences and truly redefine how we interact with AI!"
-      },
-      {
-        "speaker": "BUNNY",
-        "text": "Next up is the Educational Epic Movie Plot Generator."
-      },
-      {
-        "speaker": "BUNNY",
-        "text": "The Educational Epic Movie Plot Generator is a fantastic new tool that transforms complex GitHub repositories into exciting movie plots!"
-      },
-      {
-        "speaker": "FOX",
-        "text": "I get the idea, but how will turning a codebase into a story really help developers understand it better?"
-      },
-      {
-        "speaker": "BUNNY",
-        "text": "Well, it leverages storytelling to make the intricate details of software architecture memorable and engaging, which is way more appealing than traditional documentation!"
-      },
-      {
-        "speaker": "FOX",
-        "text": "I suppose if it could genuinely simplify understanding, that would be a game changer."
-      },
-      {
-        "speaker": "BUNNY",
-        "text": "Absolutely! Imagine learning about software architecture through an epic adventure—it's not just educational, it's entertaining!"
-      },
-      {
-        "speaker": "BUNNY",
-        "text": "Next up is ProjectHub."
-      },
-      {
-        "speaker": "BUNNY",
-        "text": "ProjectHub is a platform for sourcing and managing industry projects and partner companies using a concept design approach!"
-      },
-      {
-        "speaker": "FOX",
-        "text": "Yeah, it sounds like it can really streamline project management, but do you think it’s too ambitious?"
-      },
-      {
-        "speaker": "BUNNY",
-        "text": "Not at all! With features like AI-powered project recommendations and customizable landing pages, it can really enhance collaboration!"
-      },
-      {
-        "speaker": "FOX",
-        "text": "True, and the role-based access makes it versatile for different users. It seems like a game-changer for project management!"
-      },
-      {
-        "speaker": "BUNNY",
-        "text": "Absolutely! ProjectHub is set to revolutionize how we connect students and industry partners, making project sourcing smarter and more efficient!"
-      },
-      {
-        "speaker": "BUNNY",
-        "text": "Next up is the AI-powered Multi-Agent Platform."
-      },
-      {
-        "speaker": "BUNNY",
-        "text": "So, this AI-powered multi-agent platform is a game changer for the real estate experience, both for property management companies and tenants!"
-      },
-      {
-        "speaker": "FOX",
-        "text": "Sure, it sounds impressive. But can an AI really understand complex tenant needs?"
-      },
-      {
-        "speaker": "BUNNY",
-        "text": "Absolutely! It intelligently processes natural language requests and matches them with properties, making the search process so much smoother and more personalized."
-      },
-      {
-        "speaker": "FOX",
-        "text": "I suppose if it can enhance tenant satisfaction and optimize occupancy rates, it could be a win-win for everyone involved."
-      },
-      {
-        "speaker": "BUNNY",
-        "text": "Exactly! It creates a seamless bridge between tenants and property managers, revolutionizing how we view real estate!"
-      },
-      {
-        "speaker": "BUNNY",
-        "text": "Next up is the Classroom Analytics MVP."
-      },
-      {
-        "speaker": "BUNNY",
-        "text": "So, the Classroom Analytics MVP is a groundbreaking tool that uses the Sync framework’s Concepts and Syncs architecture to deliver a live, AI-assisted teaching feedback system!"
-      },
-      {
-        "speaker": "FOX",
-        "text": "Right, but does it really make a difference? I mean, detecting phone usage and providing feedback sounds nice, but can it actually help teachers?"
-      },
-      {
-        "speaker": "BUNNY",
-        "text": "Absolutely! It not only captures live classroom dynamics but also generates real-time adjustments to lesson plans, giving teachers immediate insights to improve engagement!"
-      },
-      {
-        "speaker": "FOX",
-        "text": "Hmm, I see. So, it’s like having a smart assistant that adapts to the classroom flow. That could be really beneficial for teachers!"
-      },
-      {
-        "speaker": "BUNNY",
-        "text": "Exactly! This project transforms classrooms into interactive learning environments, making education smarter and more responsive!"
-      },
-      {
-        "speaker": "BUNNY",
-        "text": "Next up is the Ghostwriter Partner System."
-      },
-      {
-        "speaker": "BUNNY",
-        "text": "The Ghostwriter Partner System is a groundbreaking collaborative writing platform that empowers users to create content through independent concepts seamlessly interacting with each other!"
-      },
-      {
-        "speaker": "FOX",
-        "text": "Yeah, but are these concepts really going to improve the writing process? It seems like it could overcomplicate things."
-      },
-      {
-        "speaker": "BUNNY",
-        "text": "That's the beauty of it! Each concept serves a single purpose, making it modular and flexible. Plus, the synchronizations ensure everything flows smoothly!"
-      },
-      {
-        "speaker": "FOX",
-        "text": "I see your point. It’s like having a whole team of experts working on different aspects of writing without the chaos."
-      },
-      {
-        "speaker": "BUNNY",
-        "text": "Exactly! The Ghostwriter Partner System transforms writing into an orchestrated creative experience, combining modular flexibility with powerful AI capabilities!"
-      },
-      {
-        "speaker": "BUNNY",
-        "text": "Next up is the Mental Health App."
-      },
-      {
-        "speaker": "BUNNY",
-        "text": "Today, we're diving into a project that is a revolutionary new app designed to help people track their mental health and well-being."
-      },
-      {
-        "speaker": "FOX",
-        "text": "Right, but how effective can an app be? I mean, can it really replace talking to a therapist?"
-      },
-      {
-        "speaker": "BUNNY",
-        "text": "I think it complements therapy! It offers daily check-ins, mood tracking, and even mindfulness exercises to enhance personal insights."
-      },
-      {
-        "speaker": "FOX",
-        "text": "That does sound interesting. If it can provide support between sessions, it might just be what a lot of people need."
-      },
-      {
-        "speaker": "BUNNY",
-        "text": "Absolutely! This app is set to empower individuals on their mental health journey, making self-care accessible and engaging!"
-      },
-      {
-        "speaker": "BUNNY",
-        "text": "Lastly, but not least, is the UI Overhaul."
-      },
-      {
-        "speaker": "BUNNY",
-        "text": "So, this project is a complete overhaul of our user interface! We set and revealed correct answers to enhance clarity, and I’m really excited about the new user-friendly design we implemented."
-      },
-      {
-        "speaker": "FOX",
-        "text": "Yeah, but it sounds like it was a real challenge getting there. I mean, those pre-existing HTML structures must have been a nightmare to adjust."
-      },
-      {
-        "speaker": "BUNNY",
-        "text": "Totally! But we learned so much."
-      },
-      {
-        "speaker": "BUNNY",
-        "text": "Thanks for listening to this week's Sunday projects, folks!"
-      },
-      {
-        "speaker": "FOX",
-        "text": "See you next week, I guess!"
-      }
-    ]
+  "dialogue": [
+    {
+      "speaker": "BUNNY",
+      "text": "Welcome back to another episode of Sunday Weekly Updates! I'm your host Bunny, and with me is my co-host Fox. How are you doing today, Fox?"
+    },
+    {
+      "speaker": "FOX",
+      "text": "Hey Bunny! I'm doing alright, I guess. What's the first project we're looking at?"
+    },
+    {
+      "speaker": "BUNNY",
+      "text": "First up is Scene Rewind."
+    },
+    {
+      "speaker": "BUNNY",
+      "text": "Scene Rewind is a fun and interactive web application that allows you to transform any image into a scene from a different era!"
+    },
+    {
+      "speaker": "FOX",
+      "text": "That sounds interesting, but is it really necessary? I mean, how many people actually want to see their old photos in medieval times?"
+    },
+    {
+      "speaker": "BUNNY",
+      "text": "Oh, come on, Fox! It's not just about practicality. It's about reliving memories in a creative way, and the nostalgia factor can be really powerful!"
+    },
+    {
+      "speaker": "FOX",
+      "text": "I guess I see your point. There's definitely something appealing about visualizing a different time. It could spark some fun conversations."
+    },
+    {
+      "speaker": "BUNNY",
+      "text": "Exactly! Scene Rewind takes us on a whimsical journey through time, allowing us to play with our memories and history in a unique, engaging way!"
+    },
+    {
+      "speaker": "BUNNY",
+      "text": "Next up is ConceptFlow."
+    },
+    {
+      "speaker": "BUNNY",
+      "text": "So, this visual React Flow-based tool is a fantastic way for users to compose concepts and sync rules effortlessly!"
+    },
+    {
+      "speaker": "FOX",
+      "text": "I mean, it sounds interesting, but isn't there a risk of overwhelming users with too many options?"
+    },
+    {
+      "speaker": "BUNNY",
+      "text": "Not at all! The intuitive drag-and-drop interface makes it all so user-friendly, and the contextual palette really helps guide them."
+    },
+    {
+      "speaker": "FOX",
+      "text": "Okay, I can see that. If it's as seamless as you say, it could be a game changer!"
+    },
+    {
+      "speaker": "BUNNY",
+      "text": "Absolutely! Imagine a world where creating complex flows is as simple as drag and drop—this tool truly simplifies conceptual design!"
+    },
+    {
+      "speaker": "BUNNY",
+      "text": "Next up is YNGO."
+    },
+    {
+      "speaker": "BUNNY",
+      "text": "YNGO is a groundbreaking interactive AI platform where you can create, share, and explore digital twins right from your browser!"
+    },
+    {
+      "speaker": "FOX",
+      "text": "Yeah, but isn't it just another tool? I mean, how is it different from traditional AI apps?"
+    },
+    {
+      "speaker": "BUNNY",
+      "text": "Great question! Unlike static apps, YNGO allows your AI twins to evolve and interact while you're offline, making them feel alive and dynamic!"
+    },
+    {
+      "speaker": "FOX",
+      "text": "Okay, that does sound pretty cool. It's like merging gaming with AI in a way that makes it really engaging!"
+    },
+    {
+      "speaker": "BUNNY",
+      "text": "Exactly! With YNGO, anyone can create their own unique experiences and truly redefine how we interact with AI!"
+    },
+    {
+      "speaker": "BUNNY",
+      "text": "Next up is the Educational Epic Movie Plot Generator."
+    },
+    {
+      "speaker": "BUNNY",
+      "text": "The Educational Epic Movie Plot Generator is a fantastic new tool that transforms complex GitHub repositories into exciting movie plots!"
+    },
+    {
+      "speaker": "FOX",
+      "text": "I get the idea, but how will turning a codebase into a story really help developers understand it better?"
+    },
+    {
+      "speaker": "BUNNY",
+      "text": "Well, it leverages storytelling to make the intricate details of software architecture memorable and engaging, which is way more appealing than traditional documentation!"
+    },
+    {
+      "speaker": "FOX",
+      "text": "I suppose if it could genuinely simplify understanding, that would be a game changer."
+    },
+    {
+      "speaker": "BUNNY",
+      "text": "Absolutely! Imagine learning about software architecture through an epic adventure—it's not just educational, it's entertaining!"
+    },
+    {
+      "speaker": "BUNNY",
+      "text": "Next up is ProjectHub."
+    },
+    {
+      "speaker": "BUNNY",
+      "text": "ProjectHub is a platform for sourcing and managing industry projects and partner companies using a concept design approach!"
+    },
+    {
+      "speaker": "FOX",
+      "text": "Yeah, it sounds like it can really streamline project management, but do you think it's too ambitious?"
+    },
+    {
+      "speaker": "BUNNY",
+      "text": "Not at all! With features like AI-powered project recommendations and customizable landing pages, it can really enhance collaboration!"
+    },
+    {
+      "speaker": "FOX",
+      "text": "True, and the role-based access makes it versatile for different users. It seems like a game-changer for project management!"
+    },
+    {
+      "speaker": "BUNNY",
+      "text": "Absolutely! ProjectHub is set to revolutionize how we connect students and industry partners, making project sourcing smarter and more efficient!"
+    },
+    {
+      "speaker": "BUNNY",
+      "text": "Next up is the AI-powered Multi-Agent Platform."
+    },
+    {
+      "speaker": "BUNNY",
+      "text": "So, this AI-powered multi-agent platform is a game changer for the real estate experience, both for property management companies and tenants!"
+    },
+    {
+      "speaker": "FOX",
+      "text": "Sure, it sounds impressive. But can an AI really understand complex tenant needs?"
+    },
+    {
+      "speaker": "BUNNY",
+      "text": "Absolutely! It intelligently processes natural language requests and matches them with properties, making the search process so much smoother and more personalized."
+    },
+    {
+      "speaker": "FOX",
+      "text": "I suppose if it can enhance tenant satisfaction and optimize occupancy rates, it could be a win-win for everyone involved."
+    },
+    {
+      "speaker": "BUNNY",
+      "text": "Exactly! It creates a seamless bridge between tenants and property managers, revolutionizing how we view real estate!"
+    },
+    {
+      "speaker": "BUNNY",
+      "text": "Next up is the Classroom Analytics MVP."
+    },
+    {
+      "speaker": "BUNNY",
+      "text": "So, the Classroom Analytics MVP is a groundbreaking tool that uses the Sync framework's Concepts and Syncs architecture to deliver a live, AI-assisted teaching feedback system!"
+    },
+    {
+      "speaker": "FOX",
+      "text": "Right, but does it really make a difference? I mean, detecting phone usage and providing feedback sounds nice, but can it actually help teachers?"
+    },
+    {
+      "speaker": "BUNNY",
+      "text": "Absolutely! It not only captures live classroom dynamics but also generates real-time adjustments to lesson plans, giving teachers immediate insights to improve engagement!"
+    },
+    {
+      "speaker": "FOX",
+      "text": "Hmm, I see. So, it's like having a smart assistant that adapts to the classroom flow. That could be really beneficial for teachers!"
+    },
+    {
+      "speaker": "BUNNY",
+      "text": "Exactly! This project transforms classrooms into interactive learning environments, making education smarter and more responsive!"
+    },
+    {
+      "speaker": "BUNNY",
+      "text": "Next up is the Ghostwriter Partner System."
+    },
+    {
+      "speaker": "BUNNY",
+      "text": "The Ghostwriter Partner System is a groundbreaking collaborative writing platform that empowers users to create content through independent concepts seamlessly interacting with each other!"
+    },
+    {
+      "speaker": "FOX",
+      "text": "Yeah, but are these concepts really going to improve the writing process? It seems like it could overcomplicate things."
+    },
+    {
+      "speaker": "BUNNY",
+      "text": "That's the beauty of it! Each concept serves a single purpose, making it modular and flexible. Plus, the synchronizations ensure everything flows smoothly!"
+    },
+    {
+      "speaker": "FOX",
+      "text": "I see your point. It's like having a whole team of experts working on different aspects of writing without the chaos."
+    },
+    {
+      "speaker": "BUNNY",
+      "text": "Exactly! The Ghostwriter Partner System transforms writing into an orchestrated creative experience, combining modular flexibility with powerful AI capabilities!"
+    },
+    {
+      "speaker": "BUNNY",
+      "text": "Next up is the Mental Health App."
+    },
+    {
+      "speaker": "BUNNY",
+      "text": "Today, we're diving into a project that is a revolutionary new app designed to help people track their mental health and well-being."
+    },
+    {
+      "speaker": "FOX",
+      "text": "Right, but how effective can an app be? I mean, can it really replace talking to a therapist?"
+    },
+    {
+      "speaker": "BUNNY",
+      "text": "I think it complements therapy! It offers daily check-ins, mood tracking, and even mindfulness exercises to enhance personal insights."
+    },
+    {
+      "speaker": "FOX",
+      "text": "That does sound interesting. If it can provide support between sessions, it might just be what a lot of people need."
+    },
+    {
+      "speaker": "BUNNY",
+      "text": "Absolutely! This app is set to empower individuals on their mental health journey, making self-care accessible and engaging!"
+    },
+    {
+      "speaker": "BUNNY",
+      "text": "Lastly, but not least, is the UI Overhaul."
+    },
+    {
+      "speaker": "BUNNY",
+      "text": "So, this project is a complete overhaul of our user interface! We set and revealed correct answers to enhance clarity, and I'm really excited about the new user-friendly design we implemented."
+    },
+    {
+      "speaker": "FOX",
+      "text": "Yeah, but it sounds like it was a real challenge getting there. I mean, those pre-existing HTML structures must have been a nightmare to adjust."
+    },
+    {
+      "speaker": "BUNNY",
+      "text": "Totally! But we learned so much."
+    },
+    {
+      "speaker": "BUNNY",
+      "text": "Thanks for listening to this week's Sunday projects, folks!"
+    },
+    {
+      "speaker": "FOX",
+      "text": "See you next week, I guess!"
+    }
+  ]
 }     
-  
