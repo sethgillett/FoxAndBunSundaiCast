@@ -20,7 +20,10 @@ def run_pipeline(lookback_days):
     else:
         transcript = json.load(open("transcript.json"))
 
-    num_files = len(os.listdir("./audio_assets"))
+    if os.path.exists("./audio_assets"):
+        num_files = len(os.listdir("./audio_assets"))
+    else:
+        num_files = 0
 
     if num_files != len(transcript['dialogue']):
         print("Converting transcript to speech...")
@@ -29,7 +32,7 @@ def run_pipeline(lookback_days):
     print("Merging audio files...")
     if not os.path.exists("./output/merged.mp3"):
         merge_mp3_files("./audio_assets", "./output", "merged.mp3")
-        
+
     print("Done")
     
 
