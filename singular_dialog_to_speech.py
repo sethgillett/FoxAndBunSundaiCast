@@ -43,6 +43,8 @@ def dialog_to_speech(section: dict, file_name: str, root_path: str):
 
     with open(output_file, "wb") as f:
         f.write(response.content)
+    
+    print(f"Saved {output_file}")
 
 if __name__ == "__main__":
     dialog_to_speech(
