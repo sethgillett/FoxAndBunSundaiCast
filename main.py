@@ -8,5 +8,5 @@ def run_pipeline():
     return transcript
 
 if __name__ == "__main__":
-    json.loads(example)
-    # print(run_pipeline())
+    output = run_pipeline()
+    print(json.dumps(output))

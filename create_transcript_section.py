@@ -20,7 +20,7 @@ def create_transcript_section(project_json: dict) -> TranscriptResponse:
         }
     """
 
-    name = project_json.get("name", "")
+    name = project_json.get("title", "")
     description = project_json.get("description", "")
 
     if use_mock_response == "True":

@@ -6,11 +6,11 @@ from create_transcript_section import create_transcript_section
 opening_lines = [
        DialogueLine(
             speaker="BUNNY",
-            text="Welcome back to another episode of Sunday Weekly Updates! I’m your host Bunny, and with me is my co-host Fox. How are you doing today, Fox?"
+            text="Welcome back to another episode of Sunday Weekly Updates! I'm your host Bunny, and with me is my co-host Fox. How are you doing today, Fox?"
         ),
         DialogueLine(
             speaker="FOX",
-            text="Hey Bunny! I’m doing alright, I guess. What's the first project we're looking at?"
+            text="Hey Bunny! I'm doing alright, I guess. What's the first project we're looking at?"
         ),
 ]
 
@@ -55,6 +55,8 @@ def combine_whole_transcript(projects: list[dict]) -> dict:
         else:
             transcript.dialogue.append(DialogueLine(speaker="BUNNY", text= section_opener_following.format(name=name)))
         transcript.dialogue += section_transcript.dialogue
+    
+    transcript.dialogue += closing_lines
     return transcript.model_dump()
 
 
