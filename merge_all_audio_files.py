@@ -10,7 +10,7 @@ def merge_mp3_files(folder_path: str, output_path: str, output_file: str = "merg
         folder_path (str): Path to the folder containing MP3 files.
         output_file (str): Name/path of the merged MP3 output file.
     """
-    os.makedirs(folder_path, exist_ok=True)
+    os.makedirs(output_path, exist_ok=True)
 
     # Collect and sort MP3 files numerically
     mp3_files = sorted(
