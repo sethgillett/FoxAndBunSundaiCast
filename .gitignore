@@ -7,3 +7,4 @@ __pycache__
 *.mp3
 audio_assets/*
 .DS_Store
+transcript.json
