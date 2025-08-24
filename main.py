@@ -1,4 +1,5 @@
 import os
+import sys
 from parse_projects import parse_relevant_json, pull_sundai_projects
 from combine_whole_transcript import combine_whole_transcript
 from transcript_to_speech_assets import transcript_to_speech
@@ -19,9 +20,9 @@ def run_pipeline(lookback_days):
         print("Converting transcript to speech...")
         transcript_to_speech(json.load(open("transcript.json"))["dialogue"])
         print("Merging audio files...")
-        merge_mp3_files("./audio_assets", "merged.mp3")
+        merge_mp3_files("./audio_assets", "./output", "merged.mp3")
         print("Done")
     
 
 if __name__ == "__main__":
-    output = run_pipeline()
+    output = run_pipeline(int(sys.argv[0]))
