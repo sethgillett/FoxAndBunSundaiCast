@@ -15,9 +15,8 @@ def parse_relevant_json(projects):
             'title': project['title'],
             'description': project['description'],
             'date': datetime.fromisoformat(project['createdAt']),
-            'lead': project['launchLead']['name'],
-            'participants': [p['hacker']['name'] for p in project['participants']],
         })
+    return filtered_projects
 
 
 if __name__ == '__main__':
