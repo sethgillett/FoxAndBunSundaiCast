@@ -1,14 +1,17 @@
 from pydub import AudioSegment
 import os
 
-def merge_mp3_files(folder_path: str, output_file: str = "merged.mp3"):
+def merge_mp3_files(folder_path: str, output_path: str, output_file: str = "merged.mp3"):
     """
     Merge all mp3 files in the folder (0.mp3, 1.mp3, 2.mp3, ...) into a single MP3 file.
+    MP3s MUST ONLY BE A NUMBER. OTHERWISE THIS WILL RAISE AN ERROR
     
     Args:
         folder_path (str): Path to the folder containing MP3 files.
         output_file (str): Name/path of the merged MP3 output file.
     """
+    os.makedirs(folder_path, exist_ok=True)
+
     # Collect and sort MP3 files numerically
     mp3_files = sorted(
         [f for f in os.listdir(folder_path) if f.endswith(".mp3")],
@@ -27,8 +30,8 @@ def merge_mp3_files(folder_path: str, output_file: str = "merged.mp3"):
         combined += audio
 
     # Export merged file
-    combined.export(os.path.join(folder_path, output_file), format="mp3")
+    combined.export(os.path.join(output_path, output_file), format="mp3")
     print(f"Merged {len(mp3_files)} files into {output_file}")
 
 if __name__ == "__main__":
-    merge_mp3_files("./audio_assets", "merged.mp3")
+    merge_mp3_files("./output", "merged.mp3")
