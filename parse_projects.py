@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 
 import requests
 
@@ -16,6 +16,7 @@ def parse_relevant_json(projects):
             'description': project['description'],
             'date': datetime.fromisoformat(project['createdAt']),
         })
+    filtered_projects = [p for p in filtered_projects if p['date'] >= datetime.now(tz=timezone.utc) - timedelta(days=14)]
     return filtered_projects
 
 
